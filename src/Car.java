@@ -1,10 +1,10 @@
-public class Cars extends Vehicle{
+public class Car extends Vehicle{
 
-	public Cars(String brand) {
+	public Car(String brand) {
 		this(brand, 0);
 	}
 	
-	public Cars(String brand, int kilometers) {
+	public Car(String brand, int kilometers) {
 		super(brand, kilometers);
 	}
 

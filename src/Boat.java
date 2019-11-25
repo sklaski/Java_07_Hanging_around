@@ -1,10 +1,10 @@
-public class Boats extends Vehicle{
+public class Boat extends Vehicle{
 
-	public Boats(String brand) {
+	public Boat(String brand) {
 		this(brand, 0);
 	}
 	
-	public Boats(String brand, int kilometers) {
+	public Boat(String brand, int kilometers) {
 		super(brand, kilometers);
 	}
 
